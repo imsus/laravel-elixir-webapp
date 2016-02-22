@@ -1,0 +1,17 @@
+{
+  "name": "laravel-elixir-webapp",
+  "version": "1.0.0",
+  "description": "Boilerplate with laravel elixir",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Imam Susanto",
+  "license": "MIT",
+  "dependencies": {
+    "laravel-elixir": "^5.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
