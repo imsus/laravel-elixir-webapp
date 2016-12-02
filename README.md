@@ -8,13 +8,13 @@ This boilerplate is intended for person who actually comfortable with laravel pr
 
 ## Installation
 
-1. Since this boilerplate is a project, not a module. You should clone this project first. On Terminal/bash type this
+Since this boilerplate is a project, not a module. You should clone this project first. On Terminal/bash type this
 
 ```bash
 git clone https://github.com/imsus/laravel-elixir-webapp.git my-project
 ```
 
-2. After that, install the dependencies using NPM or Yarn.
+After that, install the dependencies using NPM or Yarn.
 
 If using NPM then type:
 
@@ -28,7 +28,7 @@ or if using Yarn then type:
 $ yarn
 ```
 
-3. Now you can start develop websites using this project.
+Now you can start develop websites using this project.
 
 ## Usage
 
