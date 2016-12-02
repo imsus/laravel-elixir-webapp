@@ -1,9 +1,0 @@
-{
-  "assetsPath": "./src",
-  "publicPath": "./app",
-  "browserSync": {
-    "server": {
-      "baseDir": "./app"
-    }
-  }
-}

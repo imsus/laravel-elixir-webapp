@@ -1,0 +1,13 @@
+html, body {
+  min-height: 100vh;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  box-sizing: border-box;
+}
