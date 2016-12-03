@@ -1,0 +1,25 @@
+{
+  "name": "Laravel Elixir Webapp",
+  "short_name": "LEW",
+  "icons": [{
+    "src": "img/icon-128x128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "img/ms-touch-icon-144x144-precomposed.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "img/apple-touch-icon.png",
+    "sizes": "152x152",
+    "type": "image/png"
+  }, {
+    "src": "img/chrome-touch-icon-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}

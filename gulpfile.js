@@ -10,8 +10,8 @@ elixir.config.assetsPath = 'src';
 elixir.config.publicPath = 'dist';
 elixir.config.browserSync = {
   files: [
-    'src/**/*.{css,js}',
-    'dist/*.html'
+    './src/**/*.{css,js}',
+    './dist/*.html'
   ],
   proxy: false,
   server: {
@@ -20,9 +20,9 @@ elixir.config.browserSync = {
 }
 
 elixir(function(mix) {
-  mix.copy('src/*.html', './dist');
-  mix.copy('src/img', './dist/img');
-  mix.copy('src/fonts', './dist/fonts');
+  mix.copy('src/**/*.{html,json,txt}', 'dist');
+  mix.copy('src/img/**/*.*', 'dist/img');
+  mix.copy('src/fonts/**/*.*', 'dist/fonts');
 
   mix.styles([
     'app.css'
